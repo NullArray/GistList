@@ -13,6 +13,11 @@ I recently switched from VMware to QEMU for OS virtualization. During that time 
 
 Find it [here](https://gist.github.com/NullArray/1384c4aae7e73eeb51b620b1abcf6ea7)
 
+### Optional Libraries Installer (QEMU/Ubuntu)
+
+This is a small shell script that installs optional supporting libraries for QEMU-KVM. Written for use on Ubuntu.
+
+Find it [here](https://gist.github.com/NullArray/c0ff340cd70ad159a60939bc6e4c0f9e)
 
 ### Copy-Locker
 
