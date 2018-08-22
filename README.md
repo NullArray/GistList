@@ -7,6 +7,12 @@ However, since a number of these scripts might be useful to others for various r
 
 Check the list out below, i will be periodically updating it as we move forward.
 
+### GenCert
+
+This little shell script will quickly go over the steps needed to setup an OpenSSL cert.
+
+Find it [here](https://gist.github.com/NullArray/de1406d4e18790a861574f7cffdbc3d4)
+
 ### Config Script To Run Android in VM with QEMU
 
 I recently switched from VMware to QEMU for OS virtualization. During that time i wanted to run Android in VM, this Bash script will help you set up an IMG file to emulate Android's internal storage. After that the script will use an ISO of Android and the IMG file to start an Android VM with QEMU. 
