@@ -7,6 +7,13 @@ However, since a number of these scripts might be useful to others for various r
 
 Check the list out below, i will be periodically updating it as we move forward.
 
+### Geo Sorter
+
+A small wrapper, for [Stamparm's](https://github.com/stamparm)  [Fetch-Some-Proxies](https://github.com/stamparm/fetch-some-proxies) that allows you to easily gather some secure proxies sorted on pre-configured geo-locations.
+
+Find it [here](https://gist.github.com/NullArray/35e3d894fe896ee1d7d8088a3d8175b7).
+
+
 ### GenCert
 
 This little shell script will quickly go over the steps needed to setup an OpenSSL cert.
