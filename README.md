@@ -1,6 +1,6 @@
 # GistList
 
-This repo will be for providing easy access to some of the gists i posted. From time to time i'll write a script for a specific 
+This repo will be for providing easy access to some of the gists i post. From time to time i'll write a script for a specific 
 purpose, for personal use, or to help out a friend with something. As opposed to most of my Open Source projects these scripts tend to be more practical in nature meaning that they are usually a little less user friendly and just simply get the job done.
 
 However, since a number of these scripts might be useful to others for various reasons, i decided it might be helpful to post a neat list of them here with a short description on their functionality.
