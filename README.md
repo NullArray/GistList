@@ -1,8 +1,3 @@
-# NetSet Related
-
-
-My OPSEC Tool [NetSet](https://github.com/NullArray/NetSet) has a feature that allows you to easily access online resources that may be hepful with Operational Security. Among which are a [list of DNSCrypt-proxy compatible resolvers](https://gist.github.com/NullArray/e9961cb5574656ecf0d35b09c6567e2c) and a [list of val MAC Addresses](https://gist.github.com/NullArray/0380871a42b608830357f998df735e71). For convenience sake, i have decided to link to those resources here as well.
-
 # GistList
 
 This repo will be for providing easy access to some of the gists i post. From time to time i'll write a script for a specific 
@@ -11,6 +6,10 @@ purpose, for personal use, or to help out a friend with something. As opposed to
 However, since a number of these scripts might be useful to others for various reasons, i decided it might be helpful to post a neat list of them here with a short description on their functionality.
 
 Check the list out below, i will be periodically updating it as we move forward.
+
+### NetSet Related
+
+My OPSEC Tool [NetSet](https://github.com/NullArray/NetSet) has a feature that allows you to easily access online resources that may be hepful with Operational Security. Among which are a [list of DNSCrypt-proxy compatible resolvers](https://gist.github.com/NullArray/e9961cb5574656ecf0d35b09c6567e2c) and a [list of val MAC Addresses](https://gist.github.com/NullArray/0380871a42b608830357f998df735e71). For convenience sake, i have decided to link to those resources here as well.
 
 ### Geo Sorter
 
