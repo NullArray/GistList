@@ -9,7 +9,7 @@ Check the list out below, i will be periodically updating it as we move forward.
 
 ### NetSet Related
 
-My OPSEC Tool [NetSet](https://github.com/NullArray/NetSet) has a feature that allows you to easily access online resources that may be hepful with Operational Security. Among which are a [list of DNSCrypt-proxy compatible resolvers](https://gist.github.com/NullArray/e9961cb5574656ecf0d35b09c6567e2c) and a [list of val MAC Addresses](https://gist.github.com/NullArray/0380871a42b608830357f998df735e71). For convenience sake, i have decided to link to those resources here as well.
+My OPSEC Tool [NetSet](https://github.com/NullArray/NetSet) has a feature that allows you to easily access online resources that may be hepful with Operational Security. Among which are a [list of DNSCrypt-proxy compatible resolvers](https://gist.github.com/NullArray/e9961cb5574656ecf0d35b09c6567e2c) and a [list of valid MAC Addresses](https://gist.github.com/NullArray/0380871a42b608830357f998df735e71). For convenience sake, i have decided to link to those resources here as well.
 
 ### Geo Sorter
 
