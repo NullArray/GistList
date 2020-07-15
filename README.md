@@ -8,43 +8,54 @@ However, since a number of these scripts might be useful to others for various r
 Check the list out below, i will be periodically updating it as we move forward.
 
 ### New
-##### OPSEC+ 
+
+#### Pipper
+I wrote a little Python script that makes restoring Python packages more convenient. Normally when restoring a big package file 
+you can create with `pip3 freeze` it stops processing the list when `pip3 install -r backups-pkg.txt` encounters a package that
+has been deprecated or is no longer available for some reason or another.
+
+Pipper reads in the text file goes over the packages and simply skips the ones that would normally stop the execution of the restoration operations. 
+
+Find it [here](https://gist.github.com/NullArray/9f4a6b0b2817d8be7aec88cad9ef80a6)
+
+
+#### OPSEC+ 
 Here is a little something to frustrate Micro$oft user data mining efforts. A PAC Script, A PowerShell HTTP Server to serve the PAC Data, a batch file to remove Telemetry related updates and for fun a service in C++ that starts it
 all as a sub-process for persistence. Although commands to manually add a scheduled task are provided as well.
 
-https://gist.github.com/NullArray/185dab786e72d59fdf65664f253fc06a
+Find it [here](https://gist.github.com/NullArray/185dab786e72d59fdf65664f253fc06a)
 
 
-### NetSet Related
+#### NetSet Related
 
 My OPSEC Tool [NetSet](https://github.com/NullArray/NetSet) has a feature that allows you to easily access online resources that may be hepful with Operational Security. Among which are a [list of DNSCrypt-proxy compatible resolvers](https://gist.github.com/NullArray/e9961cb5574656ecf0d35b09c6567e2c) and a [list of valid MAC Addresses](https://gist.github.com/NullArray/0380871a42b608830357f998df735e71). For convenience sake, i have decided to link to those resources here as well.
 
-### Geo Sorter
+#### Geo Sorter
 
 A small wrapper, for [Stamparm's](https://github.com/stamparm)  [Fetch-Some-Proxies](https://github.com/stamparm/fetch-some-proxies) that allows you to easily gather some secure proxies sorted on pre-configured geo-locations.
 
 Find it [here](https://gist.github.com/NullArray/35e3d894fe896ee1d7d8088a3d8175b7).
 
 
-### GenCert
+#### GenCert
 
 This little shell script will quickly go over the steps needed to setup an OpenSSL cert.
 
 Find it [here](https://gist.github.com/NullArray/de1406d4e18790a861574f7cffdbc3d4)
 
-### Config Script To Run Android in VM with QEMU
+#### Config Script To Run Android in VM with QEMU
 
 I recently switched from VMware to QEMU for OS virtualization. During that time i wanted to run Android in VM, this Bash script will help you set up an IMG file to emulate Android's internal storage. After that the script will use an ISO of Android and the IMG file to start an Android VM with QEMU. 
 
 Find it [here](https://gist.github.com/NullArray/1384c4aae7e73eeb51b620b1abcf6ea7)
 
-### Optional Libraries Installer (QEMU/Ubuntu)
+#### Optional Libraries Installer (QEMU/Ubuntu)
 
 This is a small shell script that installs optional supporting libraries for QEMU-KVM. Written for use on Ubuntu.
 
 Find it [here](https://gist.github.com/NullArray/c0ff340cd70ad159a60939bc6e4c0f9e)
 
-### Copy-Locker
+#### Copy-Locker
 
 This Bash script was written for the purpose of finding all files and directories that have been modified in the last hour. And Zip them up in a password protected archive. Uncomment line 43 and comment line 44 in order to force the script to look for log files instead and perform the same operation on those.
 
