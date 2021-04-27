@@ -9,6 +9,12 @@ Check the list out below, i will be periodically updating it as we move forward.
 
 ### New
 
+#### THC-Hydra Wrapper.
+Quick Wrapper i wrote for Hydra to bypass the maximum password length and split credential files up accordingly.
+Untested, probably buggy. But easy enough to fix and change should you desire to.
+
+Find it [here](https://gist.github.com/NullArray/d6aef3fe33ca142130a3648a0d990ed1)
+
 #### Pipper
 I wrote a little Python script that makes restoring Python packages more convenient. Normally when restoring a big package file 
 you can create with `pip3 freeze` it stops processing the list when `pip3 install -r backups-pkg.txt` encounters a package that
